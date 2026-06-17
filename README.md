@@ -8,4 +8,4 @@
 
 - **URL**: https://sos2526-jul-mrr.onrender.com
 
-- **APIs**: https://sos2526-23.onrender.com/api/v1/online-sales-popular-marketplaces/docs (developed by María Rodríguez Romero) 
+- **APIs**:  (developed by María Rodríguez Romero) 
