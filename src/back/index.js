@@ -209,6 +209,7 @@ export function loadBackend(app){
         res.status(200, "OK").json({message: "Dato eliminado"});
     });
 
+
     
     app.post(BASE_URL_API + "/online-sales-popular-marketplaces/ebay-trends", async (req, res) => {
         try {
