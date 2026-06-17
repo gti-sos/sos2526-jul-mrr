@@ -10,7 +10,7 @@ export function loadBackend(app){
 
     app.get(BASE_URL_API + "/online-sales-popular-marketplaces/docs", (req, res) =>{
 
-        res.redirect('https://documenter.getpostman.com/view/52406430/2sBXigLYQR');
+        res.redirect('https://documenter.getpostman.com/view/52806807/2sBXwtqpxp');
     });
     
 
@@ -153,7 +153,7 @@ export function loadBackend(app){
         });
     });
 
-    
+
     // MÉTODOS PARA UN ÚNICO RECURSO
 
     app.get(BASE_URL_API + "/online-sales-popular-marketplaces/:region/:date", (req, res) => {
