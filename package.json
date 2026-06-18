@@ -16,17 +16,20 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "build": "cd src/front && npm run build",
     "test-api-local": "npx newman run test/api/api-test.json -e test/api/test-local.json",
     "test-online-sales-popular-marketplaces": "start-server-and-test start http://localhost:3000 test-api-local",
     "test": "npm run test-online-sales-popular-marketplaces"
   },
   "dependencies": {
     "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
     "express": "^5.2.1",
     "nedb": "^1.8.0",
     "path": "^0.12.7"
   },
   "devDependencies": {
+    "@sveltejs/adapter-node": "^5.5.4",
     "start-server-and-test": "^3.0.11"
   }
 }
