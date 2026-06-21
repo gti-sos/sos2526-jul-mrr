@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>SOS2526-JUL-MRR - Home</title>
+    <title>Análisis</title>
     <meta name="description" content="Página de inicio del proyecto SOS2526-JUL-MRR>" />
 </svelte:head>
 
@@ -11,31 +11,10 @@
         <li><strong>María Rodríguez Romero</strong> - online-sales-popular-marketplaces</li>
     </ul>
 
-    <h2>Repositorio de Github</h2>
-    <a class="github-link" href="https://github.com/gti-sos/sos2526-jul-mrr" target="_blank">
-        &rarr; https://github.com/gti-sos/sos2526-jul-mrr
-    </a>
-
-    <h2>Front-end</h2>
-    <div class="button-group">
-        <a class="buttonEnlace" href="/MRR" target="_blank">MRR</a>
-    </div>
-
-    <h2>API desarrollada</h2>
-    <div class="button-group">
-        <a class="buttonEnlace" href="/api/v1/online-sales-popular-marketplaces" target="_blank">online-sales-popular-marketplaces</a>
-    </div>
-
-    <h2>Documentación de Postman</h2>
-    <div class="button-group">
-        <a class="buttonEnlace" href="https://documenter.getpostman.com/view/52806807/2sBXwtqpxp" target="_blank">online-sales-popular-marketplaces</a>
-    </div>
-
     <h2>Visualizaciones de los datos</h2>
     <div class="button-group">
         <a class="buttonEnlace" href="/analytics/online-sales-popular-marketplaces" target="_blank">online-sales-popular-marketplaces</a>
         <a class="buttonEnlace" href="/analytics/online-sales-popular-marketplaces/map" target="_blank">map online-sales-popular-marketplaces</a>
-
     </div>
 </div>
 
@@ -44,8 +23,10 @@
     :global(body) {
         margin: 0;
         font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        background-color: #f8fafc; /* Fondo general gris muy claro */
-        color: #334155; /* Texto principal gris oscuro, suave para la vista */
+        background-color: #f8fafc;
+        /* Fondo general gris muy claro */
+        color: #334155;
+        /* Texto principal gris oscuro, suave para la vista */
     }
 
     .container {
@@ -94,22 +75,6 @@
         color: #0f172a;
     }
 
-    .github-link {
-        display: inline-block;
-        color: #6366f1;
-        text-decoration: none;
-        word-break: break-all;
-        font-family: monospace;
-        font-size: 0.95rem;
-        margin-bottom: 1rem;
-        transition: color 0.2s ease;
-    }
-
-    .github-link:hover {
-        color: #4f46e5;
-        text-decoration: underline;
-    }
-
     .button-group {
         margin-bottom: 1.25rem;
     }
@@ -135,5 +100,4 @@
     .buttonEnlace:active {
         transform: translateY(0);
     }
-
 </style>
