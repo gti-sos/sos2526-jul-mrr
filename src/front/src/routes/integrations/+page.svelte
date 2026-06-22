@@ -2,7 +2,7 @@
 <div class="integrations">
     <h1>Integraciones </h1>
     <ul>
-        <li><a href="/integrations">(online-sales-popular-marketplaces)</a></li>
+        <li><a href="/integrations/api-internet"> Internet (online-sales-popular-marketplaces)</a></li>
         <li><a href="/integrations">(online-sales-popular-marketplaces)</a></li>
         <li><a href="/integrations">(online-sales-popular-marketplaces)</a></li>
 

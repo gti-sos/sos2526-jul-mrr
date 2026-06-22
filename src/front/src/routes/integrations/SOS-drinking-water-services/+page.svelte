@@ -9,14 +9,14 @@
     onMount(async () => {
         try {
             // 1. CARGA DE TUS DATOS (Online Sales)
-            let resSales = await fetch("https://sos2526-jul-mrr.onrender.com/api/v1/online-sales-popular-marketplaces");
+            let resSales = await fetch("/api/v1/online-sales-popular-marketplaces");
             if (resSales.status === 200) {
                 let data = await resSales.json(); 
                 if (data.length === 0) {
-                    const resLoad = await fetch("https://sos2526-jul-mrr.com/api/v1/online-sales-popular-marketplaces/loadInitialData");
+                    const resLoad = await fetch("/api/v1/online-sales-popular-marketplaces/loadInitialData");
                     if (resLoad.ok) { 
                         await new Promise(r => setTimeout(r, 1000)); 
-                        const resFinal = await fetch("https://sos2526-jul-mrr.com/api/v1/online-sales-popular-marketplaces"); 
+                        const resFinal = await fetch("/api/v1/online-sales-popular-marketplaces"); 
                         salesData = await resFinal.json();
                     }
                 } else {
@@ -52,7 +52,7 @@
             }, 0);
 
 
-            // 4. Importación dinámica de C3 para evitar "window is not defined" [cite: 2]
+            // 4. Importación dinámica de C3 para evitar "window is not defined"
             const c3 = (await import('c3')).default;
 
             if (document.getElementById('chart-container')) {
