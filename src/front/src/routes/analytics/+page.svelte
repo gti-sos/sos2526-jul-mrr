@@ -11,7 +11,7 @@
         <li><strong>María Rodríguez Romero</strong> - online-sales-popular-marketplaces</li>
     </ul>
 
-    <h2>Visualizaciones de los datos</h2>
+    <h2>Visualizaciones de mis datos</h2>
     <div class="button-group">
         <a class="buttonEnlace" href="/analytics/online-sales-popular-marketplaces" target="_blank">online-sales-popular-marketplaces</a>
         <a class="buttonEnlace" href="/analytics/online-sales-popular-marketplaces/map" target="_blank">map online-sales-popular-marketplaces</a>

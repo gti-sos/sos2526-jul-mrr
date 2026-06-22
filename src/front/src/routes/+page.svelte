@@ -31,10 +31,15 @@
         <a class="buttonEnlace" href="https://documenter.getpostman.com/view/52806807/2sBXwtqpxp" target="_blank">online-sales-popular-marketplaces</a>
     </div>
 
-    <h2>Visualizaciones de los datos</h2>
+    <h2>Visualizaciones de mis datos</h2>
     <div class="button-group">
         <a class="buttonEnlace" href="/analytics/online-sales-popular-marketplaces" target="_blank">online-sales-popular-marketplaces</a>
         <a class="buttonEnlace" href="/analytics/online-sales-popular-marketplaces/map" target="_blank">map online-sales-popular-marketplaces</a>
+    </div>
+
+    <h2>Integraciones</h2>
+    <div class="button-group">
+        <a class="buttonEnlace" href="/integrations">Lista de integraciones</a>
 
     </div>
 </div>
@@ -125,6 +130,7 @@
         font-size: 0.95rem;
         box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.15);
         transition: transform 0.15s ease, box-shadow 0.15s ease;
+        margin-bottom: 4px;
     }
 
     .buttonEnlace:hover {
