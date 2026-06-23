@@ -39,7 +39,7 @@
 
     <h2>Integraciones</h2>
     <div class="button-group">
-        <a class="buttonEnlace" href="/integrations">Lista de integraciones</a>
+        <a class="buttonEnlace" href="/integrations" target="_blank">Lista de integraciones</a>
 
     </div>
 </div>

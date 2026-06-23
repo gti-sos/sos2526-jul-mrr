@@ -2,13 +2,14 @@
 <div class="integrations">
     <h1>Integraciones </h1>
     <ul>
-        <li><a href="/integrations/api-internet"> Internet (online-sales-popular-marketplaces)</a></li>
-        <li><a href="/integrations">(online-sales-popular-marketplaces)</a></li>
-        <li><a href="/integrations">(online-sales-popular-marketplaces)</a></li>
+        <li><a href="/integrations/api-internet" target="_blank">Internet (online-sales-popular-marketplaces)</a></li>
+        <li><a href="/integrations/api-clima" target="_blank">Clima (online-sales-popular-marketplaces)</a></li>
+        <li><a href="/integrations/api-festivos" target="_blank">Festivos (online-sales-popular-marketplaces)</a></li>
+        <li><a href="/integrations/api-divisas" target="_blank">Divisas (online-sales-popular-marketplaces)</a></li>
 
 
-        <li><a href="/integrations/SOS-birth-death-growth-rates">G12 - birth-death-growth-rates (SOS)</a></li>
-        <li><a href="/integrations/SOS-drinking-water-services">G27 - drinking-water-services (SOS)</a></li>
+        <li><a href="/integrations/SOS-birth-death-growth-rates" target="_blank">G12 - birth-death-growth-rates (SOS)</a></li>
+        <li><a href="/integrations/SOS-drinking-water-services" target="_blank">G27 - drinking-water-services (SOS)</a></li>
     </ul>
 </div>
 

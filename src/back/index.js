@@ -209,6 +209,20 @@ export function loadBackend(app){
         res.status(200, "OK").json({message: "Dato eliminado"});
     });
 
+
+    // PROXY PARA LA API EXTERNA
+    app.get('/api/v1/proxy-divisas', async (req, res) => {
+        try {
+            // Consultamos el rango exacto de 2024 que necesitas
+            const url = 'https://api.frankfurter.app/2024-01-01..2024-08-27?from=USD&to=EUR';
+            const response = await fetch(url);
+            const data = await response.json();
+            res.json(data);
+        } catch (error) {
+            res.status(500).json({ error: 'Error al consultar el servicio de divisas' });
+        }
+    });
+
 }
 
 
