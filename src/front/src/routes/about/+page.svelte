@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>SOS2526-JUL-MRR - Home</title>
+    <title>SOS2526-JUL-MRR - About</title>
     <meta name="description" content="Página de inicio del proyecto SOS2526-JUL-MRR>" />
 </svelte:head>
 
@@ -16,36 +16,17 @@
         &rarr; https://github.com/gti-sos/sos2526-jul-mrr
     </a>
 
+    <h2>Vídeo</h2>
+    <div class="button-group">
+        <a class="buttonEnlace" href="/" target="_blank">Vídeo explicativo</a>
+    </div>
+
     <h2>Front-end</h2>
     <div class="button-group">
         <a class="buttonEnlace" href="/MRR" target="_blank">MRR</a>
     </div>
 
-    <h2>API desarrollada</h2>
-    <div class="button-group">
-        <a class="buttonEnlace" href="/api/v1/online-sales-popular-marketplaces" target="_blank">online-sales-popular-marketplaces</a>
-    </div>
 
-    <h2>Documentación de Postman</h2>
-    <div class="button-group">
-        <a class="buttonEnlace" href="https://documenter.getpostman.com/view/52806807/2sBXwtqpxp" target="_blank">online-sales-popular-marketplaces</a>
-    </div>
-
-    <h2>Visualizaciones de mis datos</h2>
-    <div class="button-group">
-        <a class="buttonEnlace" href="/analytics/online-sales-popular-marketplaces" target="_blank">online-sales-popular-marketplaces</a>
-        <a class="buttonEnlace" href="/analytics/online-sales-popular-marketplaces/map" target="_blank">map online-sales-popular-marketplaces</a>
-    </div>
-
-    <h2>Integraciones</h2>
-    <div class="button-group">
-        <a class="buttonEnlace" href="/integrations" target="_blank">Lista de integraciones</a>
-    </div>
-
-     <h2>Vídeo</h2>
-    <div class="button-group">
-        <a class="buttonEnlace" href="/" target="_blank">Vídeo explicativo</a>
-    </div>
 </div>
 
 <style>
